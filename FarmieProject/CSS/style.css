@@ -1,0 +1,648 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+span {
+    color: #79af23;
+}
+
+.green-button {
+    font-size: 16px;
+    font-weight: bolder;
+    color: white;
+    background-color: #79af23;
+    width: 160px;
+    height: 50px;
+    outline: none;
+    border: none;
+}
+
+.green-button:hover {
+    background-color: black;
+}
+
+.k12 {
+    font-size: 12px;
+}
+
+.k14 {
+    font-size: 14px;
+}
+
+.k16 {
+    font-size: 16px;
+}
+.k24 {
+    font-size: 24px;
+}
+
+.k30 {
+    font-size: 30px;
+}
+.k36 {
+    font-size: 36px;
+}
+
+.clrwhite {
+    color: white;
+}
+
+/* ---------------------- TOP HEADER STYLE -------------*/
+.top-header {
+    padding: 20px 0;
+    background-color: #F2F4F5;
+}
+
+.top-header .top-header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.th-text {
+    color: #7c7979;
+    font-size: 12px;
+}
+
+.th-mail {
+    color: #7c7979;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.th-mail div {
+    margin-right: 10px;
+}
+
+.th-mail div:last-child {
+    margin-right: 0;
+}
+
+
+/* ---------------------- HEADER STYLE -------------*/
+
+
+.header-inner {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.active {
+    color: #79af23;
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+
+}
+
+.navbar div {
+    margin-right: 10px;
+
+}
+
+.navbar div:last-child {
+    margin-right: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #7c7979;
+}
+
+a:hover {
+    color: #79af23;
+}
+
+/* ---------------------- FİRST ITEM - BODY STYLE -------------*/
+
+.bdjpg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+div.bg {
+    background-color: rgba(0, 0, 0, .1);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+div.content {
+    height: 50vh;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+
+.img-txt {
+    padding: 10px 10px;
+    font-size: 50px;
+    color: white;
+    width: 100%;
+}
+.img-txt2 {
+    padding-top: 20px;
+    color: white;
+}
+
+/* ---------------------- SECOND ITEM - BODY STYLE -------------*/
+
+.bd2-top img {
+    display: block;
+    width: 1200px;
+    height: auto;
+    margin: 100px auto 20px auto;
+    border-radius: 8px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+/* ---------------------- THİRD ITEM - BODY STYLE -------------*/
+
+.thirdbdy {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+
+}
+
+
+.lft-txt {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    padding-top: 20px;
+    align-items: flex-start;
+
+}
+
+.rght-vid {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.RM-btn {
+    background-color: #79af23;
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+    width: 160px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.RM-btn:hover {
+    background-color: black;
+}
+
+#vid {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+
+/* ---------------------- FOURTH ITEM - BODY STYLE -------------*/
+
+.frthbdy {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#frth-lft {
+    flex: 0 0 33%;
+    height: 100%;
+}
+
+#frth-lft img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.frthbdy p {
+    font-size: 14px;
+    color: #707070;
+    width: 100%;
+}
+
+#frth-rght {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+div.items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.grids {
+    flex: 0 0 50%;
+    height: 150px;
+
+}
+.grids img {
+    width: 34px;
+    height: 30px;
+    margin: 0 15px 0 0;
+}
+
+.grids h5 {
+    font-size: 20px;
+}
+
+.grids h5:hover {
+    color: #79af23;
+}
+
+/* ---------------------- FIFTH ITEM - BODY STYLE -------------*/
+
+.bdy5 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.b5-cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.b5-cards p {
+    color: #7c7979;
+    margin-top: 10px;
+}
+
+.b5-cards p:hover {
+    color: #79af23;
+}
+
+.b5-cards h6 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.b5-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* ---------------------- SIXTH ITEM - BODY STYLE -------------*/
+
+div.bd6-bg {
+    position: relative;
+    background-color: rgba(0,0,0,.5);
+    z-index: 1;
+    padding: 100px 0;
+}
+
+div.container6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+}
+
+div.bdy6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.item {
+    margin-top: 15px;
+}
+
+div.bdy6-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+div.bdy6-2 p {
+    width: 750px;
+
+}
+
+.bd6-frm form {
+    margin-top: 50px;
+}
+
+.bd6-frm input {
+    appearance: none;
+    padding: 17px 0 17px 20px;
+    border: 1px solid transparent;
+    outline: none;
+    width: 300px;
+}
+
+.bd6-frm input:focus {
+    border-color: red;
+}
+
+/* ---------------------- SEVENTH ITEM - BODY STYLE -------------*/
+
+div.bd7 {
+    padding: 100px 0 50px;
+}
+
+article.bd7-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+div.bd7-2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.bd7-2 div.box {
+    padding: 10px;
+    width: calc(100% / 3);
+}
+
+div.bd7-2 div.box div.image-box {
+    width: 100%;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+div.bd7-2 div.box div.image-box div.image {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+div.bd7-2 div.box div.image-box img.box-item-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+div.bd7-2 div.box div.icon-box {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    box-shadow: 0 2px 2px rgba(210, 210, 210, .6);
+}
+
+div.bd7-2 div.box div.text-box {
+    text-align: center;
+}
+
+.box p {
+    color: #707070;
+}
+
+.box h4 {
+    margin-top: 10px;
+}
+
+.box h4:hover {
+    color: #79af23;
+}
+
+.ppp {
+}
+
+
+/* ---------------------- EİGHTH - BODY STYLE -------------*/
+
+
+
+section.bdy8 {
+    background-color: rgba(0,0,0,.3);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.bd8-2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bd8-1 h5 {
+    font-size: 18px;
+    color: white;
+    width: 800px;
+    margin-left: 30px;
+}
+
+.bdy8-2 {
+    background-color: rgba(0,0,0,.3);
+    display: flex;
+}
+
+.bd8-2 div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.bd8-2 img {
+    border: 5px solid #79af23;
+    border-radius: 50%;
+}
+
+.bd8-2 h5 {
+    font-size: 20px;
+    color: white;
+}
+
+.bd8-2 h6 {
+    font-size: 16px;
+    color: #79af23;
+}
+
+/* ---------------------- NINETH - BODY STYLE -------------*/
+
+.bd9 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.bd9-1 {
+    width: 500px;
+    height: 600px;
+}
+
+#i1 {
+    width: 170px;
+    height: 48px;
+    padding: 15px;
+    margin: 30px 0 20px 0;
+}
+#i2 {
+    width: 170px;
+    height: 48px;
+    padding: 15px;
+    margin: 30px 0 20px 0;
+}
+
+#i3 {
+    width: 370px;
+    height: 48px;
+    margin-bottom: 20px;
+}
+
+#i4 {
+    width: 370px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+
+/* ---------------------- TENTH - BODY STYLE -------------*/
+
+.bd10 {
+    background-color: #8F8B8B26;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.abstx {
+    position: relative;
+    width: 450px;
+    margin-left: 20px;
+    margin-top: -150px;
+}
+
+.bd11 div {
+    width: 540px;
+    height: 150px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+/* ---------------------- FOOTER - BODY STYLE -------------*/
+
+.ftr {
+    width: 210px;
+    height: 250px;
+    position: relative;
+    z-index: 1;
+    padding: 0 15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #7c7979;
+}
+
+.footer a:hover {
+    color: white;
+}
+
+
+.f1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 240px;
+    height: 350px;
+    color: white;
+}
+
+.f1 p {
+    font-size: 14px;
+    align-items: center;
+}
+
+.f1 p span {
+    font-size: 14px;
+    color: white;
+}
+
+.map {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.map li {
+    margin-bottom: 15px;
+    color: #b7b7b7;
+}
+
+.map li a {
+    color: #b7b7b7;
+}
+
+.ftr h5 {
+    color: white;
+    font-size: 18px;
+}
+
+.f3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.f3-2 {
+    display: flex;
+}
+
+.f3-2 div {
+    margin-left: 12px;
+}
+
+
